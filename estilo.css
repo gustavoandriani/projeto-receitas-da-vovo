@@ -57,6 +57,7 @@ body {
 	#menu li {
 		list-style-type: none;
 		padding: 10px;
+		padding-bottom: 35px;
 	}
 	#menu .separador {
 		width: 98%;
@@ -96,7 +97,19 @@ body {
 		margin: 10px;
 		border-top: 1px dotted #ea77a6;
 	}
-
+	#corpo .postagem-bolos {
+		float: left;
+	}
+	#corpo .postagem-bolos h1 {
+		padding: 2px;
+		background: #ea77a6;
+		color: #fff;
+		position: relative;
+		top: 272px;
+	}
+	#corpo .postagem-bolos a {
+		text-decoration: none;
+	}
 #rodape {
 	position: relative;
 	top: 100px;
@@ -119,3 +132,7 @@ body {
 		padding: 5px;
 		margin: 2px;
 	}
+
+.clear {
+	clear: both;
+}
