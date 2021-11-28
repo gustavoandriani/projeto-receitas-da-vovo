@@ -1,0 +1,121 @@
+body {
+	background: whitesmoke;
+	width: 98%;
+	font-family: Arial, Helvetica, fantasy;
+	font-size: 16px;
+}
+
+#cabecalho {
+	border-bottom: 1px dashed #ea77a6;
+	background: white;
+	width: 100%;
+	height: 110px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+	#cabecalho #logo img {
+		position: absolute;
+		top: 2px;
+		left: 45%;
+	}
+	#cabecalho #desenho img {
+		position: absolute;
+		top: 12.5px;
+		left: 53.5%;
+	}
+
+#menu {
+	border-right: 1px dashed #ea77a6;
+	border-bottom: 1px dashed #ea77a6;
+	background: white;
+	position: fixed;
+	top: 0px;
+	left: -10px;
+	width: 250px;
+	height: 1000px;
+	font-size: 1.5em;
+	text-align: left;
+}
+	#menu a {
+		padding: 5px;
+		margin: 7px;
+		color: #f15aaf;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	#menu a:hover {
+		color: white;
+		background: #f15aaf;
+	}
+	#menu ul {
+		list-style-type: none;
+		padding: 10px;
+		margin: 10px;
+	}
+	#menu li {
+		list-style-type: none;
+		padding: 10px;
+	}
+	#menu .separador {
+		width: 98%;
+		border-top: 1px dashed #ea77a6;
+	}
+
+#corpo {
+	border: 1px dashed #ea77a6;
+	background: white;
+	position: relative;
+	top: 110px;
+	left: 50px;
+	width: 1400px;
+	height: 100%;
+	margin: 0 auto;
+
+}
+	#corpo p {
+		text-align: center;
+		margin: 20px;
+	}
+	#corpo .postagem {
+		margin: 10px;
+	}
+	#corpo .postagem p{
+		text-align: left;
+	}	
+	#corpo .postagem  img{
+		margin: 10px;
+		padding: 10px;
+		border: 1px dashed #ea77a6;
+		position: relative;
+		left: 350px;
+	}
+	#corpo .postagem .separador {
+		width: 1360px;
+		margin: 10px;
+		border-top: 1px dotted #ea77a6;
+	}
+
+#rodape {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	background: #f15aaf;
+	width: 1400px;
+	height: 80px;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
+	#rodape h1 {
+		font-size: 1.5em;
+		color: white;
+		position: relative;
+		bottom: -25px;
+		padding: 1px;
+	}
+	#rodape p {
+		padding: 5px;
+		margin: 2px;
+	}
