@@ -1,0 +1,213 @@
+body {
+	background: whitesmoke;
+	width: 98%;
+	font-family: Arial, Helvetica, fantasy;
+	font-size: 16px;
+}
+
+#cabecalho {
+	border-bottom: 1px dashed #ea77a6;
+	background: white;
+	width: 100%;
+	height: 110px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+	#cabecalho #logo img {
+		position: absolute;
+		top: 2px;
+		left: 45%;
+	}
+	#cabecalho #desenho img {
+		position: absolute;
+		top: 12.5px;
+		left: 53.5%;
+	}
+
+#menu {
+	border-right: 1px dashed #ea77a6;
+	border-bottom: 1px dashed #ea77a6;
+	background: white;
+	position: fixed;
+	top: 0px;
+	left: -10px;
+	width: 250px;
+	height: 1000px;
+	font-size: 1.5em;
+	text-align: left;
+}
+	#menu a {
+		padding: 5px;
+		margin: 7px;
+		color: #f15aaf;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	#menu a:hover {
+		color: white;
+		background: #f15aaf;
+	}
+	#menu ul {
+		list-style-type: none;
+		padding: 10px;
+		margin: 10px;
+	}
+	#menu li {
+		list-style-type: none;
+		padding: 10px;
+		padding-bottom: 35px;
+	}
+	#menu .separador {
+		width: 98%;
+		border-top: 1px dashed #ea77a6;
+	}
+
+#corpo {
+	border: 1px dashed #ea77a6;
+	background: white;
+	position: relative;
+	top: 110px;
+	left: 50px;
+	width: 1400px;
+	height: 100%;
+	margin: 0 auto;
+}
+	#corpo p {
+		text-align: left;
+		margin: 20px;
+	}
+	#corpo .postagem {
+		margin-left: 50px;
+		margin-top: 10px;
+		float: left;
+	}
+	#corpo .postagem h1 {
+		padding: 7px;
+		background: #ea77a6;
+		color: #fff;
+		position: absolute;
+		top: 220px;
+	}
+	#corpo .postagem a {
+		text-decoration: none;
+	}
+	#corpo .postagem .bolos{
+		margin-top: 5px;
+		float: left;
+	}
+	#corpo .postagem .bolos h1 {
+		padding: 7px;
+		background: #ea77a6;
+		color: #fff;
+		position: absolute;
+		top: 170px;
+	}
+	#corpo .postagem .bolos a {
+		text-decoration: none;
+	}
+#corpo-receitas {
+	background: white;
+	position: relative;
+	top: 110px;
+	left: 50px;
+	width: 1400px;
+	height: 100%;
+	margin: 0 auto;
+}
+	#corpo-receitas p {
+		text-align: left;
+		margin: 20px;
+	}
+	#corpo-receitas .postagem {
+		margin-left: 50px;
+		margin-top: 10px;
+		float: left;
+	}
+	#corpo-receitas .postagem h1 {
+		padding: 7px;
+		background: #ea77a6;
+		color: #fff;
+		position: absolute;
+		top: 220px;
+	}
+	#corpo-receitas .postagem a {
+		text-decoration: none;
+	}
+	#corpo-receitas .postagem .thumb-receita{
+		margin-top: 5px;
+		float: left;
+	}
+	#corpo-receitas .postagem .thumb-receita h1 {
+		padding: 7px;
+		background: #ea77a6;
+		color: #fff;
+		position: absolute;
+		top: 170px;
+	}
+	#corpo-receitas .postagem .thumb-receita a {
+		text-decoration: none;
+	}
+	#corpo-receitas .postagem .thumb-receita2linha{
+		margin-top: 5px;
+		float: left;
+	}
+	#corpo-receitas .postagem .thumb-receita-2linha h1 {
+		padding: 7px;
+		background: #ea77a6;
+		color: #fff;
+		position: absolute;
+		top: 435px;
+	}
+	#corpo-receitas .postagem .thumb-receita-2linha a {
+		text-decoration: none;
+	}
+#receitas-recentes {
+	color: white;
+	width: 99.3%;
+	height: 50px;
+	background: #ea77a6;
+	padding: 5px;
+}
+	#receitas-recentes h1 {
+		position: absolute;
+		top: -7.5px
+	}
+
+#rodape {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	background: #f15aaf;
+	width: 1400px;
+	height: 80px;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
+	#rodape h1 {
+		font-size: 1.5em;
+		color: white;
+		position: relative;
+		bottom: -25px;
+		padding: 1px;
+	}
+	#rodape p {
+		padding: 5px;
+		margin: 2px;
+	}
+
+.clear {
+	clear: both;
+}
+
+.postagens {
+	margin-left: 10px;
+}
+	.postagens img {
+		position: relative;
+		left: 22.5%;
+		border: 15px solid #d4d4d4;
+		padding: 5px;
+	}
