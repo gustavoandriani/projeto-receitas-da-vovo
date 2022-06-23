@@ -8,13 +8,12 @@ V1.0 - RECEITAS DA VOVÓ - 28/Nov/2021
 ==============================================
 - Projeto feito totalmente em HTML e CSS puros
 - Sem utilização de tags semânticas
-==============================================
 
 
 V2.0 - RECEITAS DA VOVÓ - 23/Jun/2022
 ==============================================
 
-ALETRAÇÕES GLOBAIS
+ALTERAÇÕES GLOBAIS
 ___________________________________________
 - Implementação de Boostrap 4
 - Implementação de FontAwesome
@@ -26,6 +25,7 @@ ___________________________________________
 (Devido a isso, algumas páginas ainda se encontram
 sem estilização.)
 ___________________________________________
+
 
 ALTERAÇÕES NA PÁGINA INICIAL
 ______________________________________________
