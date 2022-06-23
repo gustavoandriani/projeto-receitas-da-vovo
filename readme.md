@@ -24,7 +24,7 @@ ___________________________________________
 - Todos os estilos foram deletados e recriados
 (Devido a isso, algumas páginas ainda se encontram
 sem estilização.)
-___________________________________________
+
 
 
 ALTERAÇÕES NA PÁGINA INICIAL
