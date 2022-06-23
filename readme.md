@@ -25,7 +25,7 @@ ___________________________________________
 (Devido a isso, algumas páginas ainda se encontram
 sem estilização.)
 
-<br><br><br>
+<br><br>
 
 ALTERAÇÕES NA PÁGINA INICIAL
 ______________________________________________
