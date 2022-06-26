@@ -10,11 +10,20 @@
 	<link rel="stylesheet" href="css/global.css">
 	<link rel="stylesheet" href="css/index.css">
 
+	<!-- Fonts Google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;900&display=swap" rel="stylesheet">
+
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<!-- FontAwesome -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/7db7094ad7.js" crossorigin="anonymous"></script>
+
+	<!-- DevIcons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 </head>
 <body>
 	<header>
@@ -56,7 +65,7 @@
 		<section id="home" class="d-flex">
 			<div class="container align-self-center">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 d-none d-md-block">
 						<div id="carouselExampleIndicators" class="carousel slide justify-self-center" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -101,23 +110,26 @@
 		</section>
 
 		<section id="ultimasReceitas" class="mt-4">
-			<div class="container d-flex">
+			<div class="container d-flex flex-column">
+				<div>
+					<h3>Últimas Receitas</h3>
+				</div>
 				<div class="row">
-					<div class="col-3">
+					<div class="col-md-4 d-flex flex-column receitas">
 						<a href="">
-							<span class="postagemDestaque">Mousse de maracujá especial</span>
+							<h5>Mousse de maracujá especial</h5>
 							<img src="receitas/doces/mousse-maracuja/img-mousse-de-maracuja-especial.jpeg" alt="Mousse de maracujá especial">
 						</a>
 					</div>
-					<div class="col-3">
+					<div class="col-md-4 d-flex flex-column receitas">
 						<a href="">
-							<span class="postagemDestaque">Coxinha de frango prática</span>
+							<h5>Coxinha de frango prática</h5>
 							<img src="receitas/salgados/coxinha/img-coxinha.jpg" alt="Coxinha de frango prática">
 						</a>
 					</div>
-					<div class="col-3">
+					<div class="col-md-4 d-flex flex-column receitas">
 						<a href="">
-							<span class="postagemDestaque">Bolo de brigadeiro</span>
+							<h5>Bolo de brigadeiro</h5>
 							<img src="receitas/bolos/bolo-brigadeiro/img-bolo-brigadeiro.jpg" alt="Bolo de brigadeiro">
 						</a>
 					</div>
@@ -126,8 +138,93 @@
 		</section>
 	</main>
 
-	<footer>
-		
+	<footer class="w-100">
+		<div class="conteudoRodape float-left">
+			<a href="">
+				<img src="sources/imagens/logo.png" width="120px">
+			</a>
+		</div>
+		<div class="row conteudoRodape">
+			<div class="col-md-4">
+				<h3>Sobre</h3>
+				<ul class="sobreRodape">
+					<li>
+						<a href="">
+							Quem somos
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Anuncie
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Contato
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h3>Receitas</h3>
+				<ul class="sobreRodape">
+					<li>
+						<a href="">
+							Bolos
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Doces
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Salgados
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Assados
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Vegetarianas
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Veganas
+						</a>
+					</li>
+					<li>
+						<a href="">
+							Churrasco
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="rodapeRedesSociais">
+				<h3>Redes Sociais</h3>
+				<a href="">
+					<i class="devicon-facebook-plain"></i>
+				</a>
+				<a href="">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+				<a href="">
+					<i class="fa-brands fa-pinterest"></i>
+				</a>
+				<a href="">
+					<i class="fa-brands fa-twitter"></i>
+				</a>
+				<a href="">
+					<i class="fa-brands fa-youtube"></i>
+				</a>
+			</div>
+		</div>
+
 	</footer>
 
 	<!-- Optional JavaScript -->

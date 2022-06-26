@@ -4,6 +4,22 @@ html, body, #home {
 }
 /* CONFIGURAÇÕES GERAIS FIM */
 
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    .carousel-item img {
+        min-height: 350px!important;
+        max-height: 350px!important;
+    }
+}
+@media (max-width: 1024px) {
+    .carousel-item img {
+        min-height: 400px!important;
+        max-height: 400px!important;
+    }
+}
+/* MEDIA QUERIES FIM */
+
+
 #home {
     width: 75%;
     margin: 0 auto;
@@ -21,26 +37,33 @@ html, body, #home {
 }
 
 #ultimasReceitas img {
-    width: 300px;
+    width: 100%;
     min-height: 250px;
     max-height: 250px;
 }
-#ultimasReceitas .col-3 {
-    margin: 40px;
-    padding: 5px;
-}
+
 #ultimasReceitas a {
+    width: 100%;
     color:#e40bc0;
+    z-index: 0;
 }
 #ultimasReceitas a:hover {
     text-decoration: none;
 }
 
-.postagemDestaque {
+.receitas h5 {
+    display: flex;
+    flex-wrap: nowrap;
     padding: 5px;
+    margin-bottom: -2px;
     background-color: #e40bc0;
     color: white;
     font-weight: bolder;
+    z-index: 1;
+}
+
+.receitas {
+    margin-bottom: 15px;
 }
 
 .bolderLink {
@@ -68,7 +91,41 @@ html, body, #home {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+footer {
+    height: 270px;
+    background: #bc0579;
+    color: white;
+}
 
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(255, 122, 180);
+    text-decoration: none;
+}
+
+.conteudoRodape, .row.conteudoRodape {
+    padding-top: 15px;
+    margin-left: 25px;
+}
+
+.sobreRodape {
+    margin-top: -5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    list-style-type: none;
+}
+
+#rodapeRedesSociais i {
+    font-size: 2em;
+    margin: 5px;
+    margin-right: 10px;
+
+}
 /* BOTÃO DE PESQUISA INICIO */
 .btn-outline-daVovo {
     color:#e621e2!important;
