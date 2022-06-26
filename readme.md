@@ -25,11 +25,29 @@ ___________________________________________
 (Devido a isso, algumas páginas ainda se encontram
 sem estilização.)
 
-<br>
-
 ALTERAÇÕES NA PÁGINA INICIAL
 ______________________________________________
 - Mudanças na estrutura da página
 - Adicionado carousel para "Receitas destaque"
 - Alterações na lista de últimas receitas postadas.
 - Rodapé removido temporariamente
+
+
+V2.1 - RECEITAS DA VOVÓ - 26/Jun/2022
+==============================================
+
+ALETRAÇÕES GLOBAIS
+___________________________________________
+- Implementação de Google Fonts API
+- Implementação da font "Fira Sans"
+- Implementação do DevIcons
+- Alteração na nossa implementação FontAwesome:
+(Na nossa implementação inicial utilizamos uma versão
+desatualizada para podermos dar inicio aos trabalhos.
+Agora, nos atualizamos para a versão mais recente.)
+
+ALTERAÇÕES NA PÁGINA INICIAL
+______________________________________________
+- Alterações em responsividade da página e imagens
+- Carousel não será mais exibido em dispositivos móveis com resoluções menores de 426px
+- Rodapé adicionado com seções: "Sobre", "Receitas" e "Redes Sociais" 
